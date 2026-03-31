@@ -1,11 +1,30 @@
-/* 
+.reloj {
+    background-color: rgb(24, 24, 24);
+    color: rgb(180, 180, 180);
+    font-size: 3rem;
+    height: 100vh;
+    font-family: "montserrat";
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.numeros {
+    background-color: rgba(0, 0, 0, 0.873);
+    padding: 15px;
+    margin: 3px;
+    font-family: 'Orbitron', sans-serif;
+    color: red;
+    font-size: 60px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid rgb(25, 25, 25);
+    border-color: aliceblue;
+}
 
-*/
+.relojicon {
+    background-color: rgba(0, 0, 0, 0.873);
+    padding: 15px;
+    margin:3px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid rgb(25, 25, 25);
+    border-color: aliceblue;
+}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom/client'
 
 //Bootstrap
@@ -9,10 +9,18 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Clock from './components/Clock';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+let varSegundos = 0;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+setInterval(() => {
+  
+root.render(
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <Clock segundos={varSegundos}/> 
+  </React.StrictMode>
+);
+
+  varSegundos++ 
+}, 1000);
